@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="my">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#0b1020"><meta name="description" content="StudyHub — Learn together, grow together.">
+<title>StudyHub — Learn Together</title>
+<link rel="stylesheet" href="/src/style.css">
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="#" aria-label="StudyHub home"><span class="logo">S</span><span>StudyHub<span class="dot">.</span></span></a>
+  <nav><a href="#learn" data-i18n="navLearn">သင်ခန်းစာများ</a><a href="#community" data-i18n="navCommunity">Community</a><a href="#security" data-i18n="navSecurity">လုံခြုံရေး</a></nav>
+  <div class="top-actions"><select id="language" aria-label="Language"><option value="my">မြန်မာ</option><option value="en">English</option></select><button class="btn btn-outline" id="signInTop" data-i18n="signIn">ဝင်မယ်</button></div>
+</header>
+<main>
+<section class="hero">
+ <div class="hero-copy">
+  <div class="eyebrow"><span class="pulse"></span> LEARN • CONNECT • GROW</div>
+  <h1 data-i18n="heroTitle">အတူတူလေ့လာပြီး<br><span>ပိုတော်လာကြမယ်။</span></h1>
+  <p data-i18n="heroText">စာတွေကို စနစ်တကျလေ့လာ၊ ကိုယ့်တိုးတက်မှုကို မှတ်တမ်းတင်ပြီး ဖိတ်ခေါ်ထားတဲ့ သူငယ်ချင်းတွေနဲ့ အတူတူကြိုးစားလိုက်ပါ။</p>
+  <div class="hero-actions"><button class="btn btn-primary" id="joinHero"><span data-i18n="joinNow">ဖိတ်ခေါ်ကုဒ်နဲ့ စတင်မယ်</span> ↗</button><a class="text-link" href="#learn" data-i18n="viewLessons">သင်ခန်းစာတွေ ကြည့်မယ် →</a></div>
+  <div class="stats"><div><b>01</b><small data-i18n="statOne">စနစ်တကျ သင်ယူမှု</small></div><div><b>24/7</b><small data-i18n="statTwo">ဖုန်း၊ ကွန်ပျူတာ</small></div><div><b>∞</b><small data-i18n="statThree">တိုးတက်ဖို့ အခွင့်အရေး</small></div></div>
+ </div>
+ <div class="hero-art"><div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+  <div class="glass-card"><div class="card-head"><span class="mini-icon">✦</span><span class="live">YOUR LEARNING SPACE</span><span>•••</span></div><div class="welcome" data-i18n="todayLearn">ဒီနေ့ ဘာသင်မလဲ?</div><div class="sub" data-i18n="stepLearn">တစ်ဆင့်ချင်း လေ့လာပါ။</div>
+   <div class="course-row"><span class="subject math">∑</span><div><b>Mathematics</b><small data-i18n="mathSub">အခြေခံကနေ စလိုက်ရအောင်</small></div><span>↗</span></div>
+   <div class="course-row"><span class="subject eng">Aa</span><div><b>English</b><small>Vocabulary &amp; Grammar</small></div><span>↗</span></div>
+   <div class="course-row"><span class="subject sci">⚛</span><div><b>Science</b><small data-i18n="scienceSub">စူးစမ်းလေ့လာပါ</small></div><span>↗</span></div>
+   <div class="progress-label"><span>StudyHub</span><b>Ready to learn</b></div><div class="progress"><i></i></div>
+  </div>
+  <div class="floating floating-top"><span>✦</span><div><b>Keep going!</b><small data-i18n="dailyLittle">နေ့တိုင်း နည်းနည်းစီ</small></div></div>
+  <div class="floating floating-bottom"><span class="avatar">S</span><div><b>Study together</b><small data-i18n="inviteFriends">ဖိတ်ခေါ်ထားသူတွေနဲ့ အတူလေ့လာပါ</small></div></div>
+ </div>
+</section>
+<section class="section" id="learn"><div class="section-heading"><div><div class="eyebrow">YOUR CLASSROOM</div><h2 data-i18n="learnHeading">လေ့လာဖို့ အဆင်သင့်ဖြစ်ပြီလား?</h2></div><p data-i18n="learnIntro">ဘာသာရပ်ရွေးပြီး ဒီနေ့ရဲ့ ပထမဆုံးအဆင့်ကို စလိုက်ပါ။</p></div>
+ <div class="course-grid">
+  <article class="course-card"><div class="course-top"><span class="subject math">∑</span><span class="tag">CORE</span></div><h3>Mathematics</h3><p data-i18n="mathText">ဂဏန်း၊ တွက်ချက်မှုနဲ့ ပြဿနာဖြေရှင်းနည်းများ။</p><button class="course-link" data-course="Mathematics"><span data-i18n="openSubject">ဘာသာရပ်ဖွင့်မယ်</span> <span>→</span></button></article>
+  <article class="course-card"><div class="course-top"><span class="subject eng">Aa</span><span class="tag">LANGUAGE</span></div><h3>English</h3><p data-i18n="englishText">Vocabulary, Grammar နဲ့ စာရေးလေ့ကျင့်ခန်းများ။</p><button class="course-link" data-course="English"><span data-i18n="openSubject">ဘာသာရပ်ဖွင့်မယ်</span> <span>→</span></button></article>
+  <article class="course-card"><div class="course-top"><span class="subject sci">⚛</span><span class="tag">DISCOVER</span></div><h3>Science</h3><p data-i18n="scienceText">သဘာဝပတ်ဝန်းကျင်နဲ့ သိပ္ပံအကြောင်း စူးစမ်းပါ။</p><button class="course-link" data-course="Science"><span data-i18n="openSubject">ဘာသာရပ်ဖွင့်မယ်</span> <span>→</span></button></article>
+ </div>
+ <div id="dashboard" class="dashboard hidden"><div><div class="eyebrow">MEMBER AREA</div><h2 data-i18n="welcomeMember">StudyHub မှ ကြိုဆိုပါတယ်</h2><p id="userEmail"></p></div><button class="btn btn-outline" id="signOut" data-i18n="signOut">ထွက်မယ်</button><div class="dashboard-note" data-i18n="memberNote">မင်းရဲ့ Member session ကို လုံခြုံစွာ ချိတ်ဆက်ထားပါတယ်။ သင်ခန်းစာအကြောင်းအရာတွေကို နောက်တစ်ဆင့်မှာ ထည့်နိုင်ပါတယ်။</div></div>
+</section>
+<section class="community" id="community"><div><div class="eyebrow">INVITE-ONLY COMMUNITY</div><h2 data-i18n="communityTitle">တစ်ယောက်တည်း မဟုတ်ဘူး။<br><span>အတူတူ တိုးတက်ကြမယ်။</span></h2><p data-i18n="communityText">StudyHub ကို ဖိတ်ခေါ်ကုဒ်ရှိသူတွေသာ ဝင်ရောက်နိုင်ပါတယ်။ အကောင့်ဖွင့်ပြီး သင်ယူမှုခရီးကို စလိုက်ပါ။</p><button class="btn btn-primary" id="joinCommunity" data-i18n="registerInvite">ဖိတ်ခေါ်ကုဒ်နဲ့ အကောင့်ဖွင့်မယ် ↗</button></div><div class="community-visual"><div class="bubble b1">Learn</div><div class="bubble b2">Share</div><div class="bubble b3">Grow</div><div class="community-center">S<span>+</span></div></div></section>
+<section class="security" id="security"><div class="security-icon">⌑</div><div><div class="eyebrow">SECURITY FIRST</div><h2 data-i18n="securityTitle">လုံခြုံရေးကို အစကတည်းက စဉ်းစားထားမယ်။</h2><p data-i18n="securityText">Authentication ကို Supabase က စီမံပေးပြီး Database မှာ Row Level Security (RLS) နဲ့ ကာကွယ်ထားပါတယ်။ Production မှာ HTTPS၊ rate limiting၊ backups နဲ့ admin MFA ကိုပါ သတ်မှတ်ပါ။</p></div><div class="security-list"><div>✓ <span>HTTPS / TLS</span></div><div>✓ <span>Verified email</span></div><div>✓ <span>Database RLS</span></div><div>✓ <span>Invite validation</span></div></div></section>
+</main>
+<footer><a class="brand" href="#"><span class="logo">S</span><span>StudyHub<span class="dot">.</span></span></a><span data-i18n="footerLine">သင်ယူမှုက ခရီးတစ်ခုပါ။ တစ်ဆင့်ချင်း သွားကြမယ်။</span><small>StudyHub • Invite-only</small></footer>
+<div class="modal-backdrop" id="modal" aria-hidden="true"><div class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle"><button class="close" id="closeModal" aria-label="Close">×</button><div class="eyebrow">STUDYHUB ACCOUNT</div><h2 id="modalTitle" data-i18n="modalTitle">ဖိတ်ခေါ်ကုဒ်နဲ့ ဝင်မယ်</h2><p class="modal-note" id="modalNote" data-i18n="modalNote">ဖိတ်ခေါ်ကုဒ်ရှိသူတွေသာ အကောင့်ဖွင့်နိုင်ပါတယ်။</p>
+<form id="authForm"><label data-i18n="inviteLabel">ဖိတ်ခေါ်ကုဒ်<input id="inviteCode" required autocomplete="off" placeholder="INVITE-CODE"></label><label data-i18n="nameLabel">အမည်<input id="displayName" autocomplete="name" maxlength="60" placeholder="Your name"></label><label>Email<input id="email" type="email" autocomplete="email" required maxlength="254" placeholder="you@example.com"></label><label data-i18n="passwordLabel">Password<input id="password" type="password" autocomplete="current-password" minlength="8" required placeholder="At least 8 characters"></label><button class="btn btn-primary full" type="submit" id="authSubmit" data-i18n="signInOrUp">ဝင်မယ် / အကောင့်ဖွင့်မယ်</button></form>
+<div class="auth-switch"><span id="switchHint" data-i18n="switchHint">အကောင့်ရှိပြီးသားလား?</span> <button type="button" id="switchMode" class="inline-link" data-i18n="switchSignIn">ဝင်မယ်</button></div><p id="formMessage" class="form-message" role="status" aria-live="polite"></p><small class="privacy" data-i18n="privacyNote">Password ကို ဘယ်သူ့ကိုမှ မမျှဝေပါနဲ့။ Email verification ကို လိုအပ်နိုင်ပါတယ်။</small></div></div>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<script type="module" src="/src/main.js"></script>
+</body></html>
